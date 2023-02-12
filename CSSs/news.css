@@ -1,0 +1,68 @@
+
+
+.news-maintitle{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:  whitesmoke;
+    text-align: center;
+    font-size: 5.089vw;
+    font-weight: 700;
+    margin-top: 12vh;
+    margin-left: 2vw;
+    padding-top: 0vh;
+    text-shadow: 4px 3px 4px black;
+    opacity: 100%;
+  }
+  
+  .news-item{
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-bottom: 10vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background: rgba(0, 0, 0, 0.45);
+    border-radius: 16px;
+    backdrop-filter: blur(8.8px);
+    -webkit-backdrop-filter: blur(8.8px);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+  }
+
+  .news-item-title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:  whitesmoke;
+    text-align: center;
+    font-size: 1.789vw;
+    font-weight: 500;
+    margin-top: 2vh;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    text-shadow: 4px 3px 4px black;
+    opacity: 100%;
+  }
+
+  .news-item-date{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:  whitesmoke;
+    text-align: right;
+    font-size: 1.089vw;
+    font-weight: 500;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: -1vh;
+    margin-bottom: 2.5vh;
+    text-shadow: 4px 3px 4px black;
+    opacity: 100%;
+  }
+
+  .news-item-text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:  whitesmoke;
+    text-align: left;
+    font-size: 1.289vw;
+    font-weight: 500;
+    margin-top: 1vh;
+    margin-left: 3.25vw;
+    margin-right: 3.25vw;
+    padding-top: 0vh;
+    text-shadow: 4px 3px 4px black;
+    opacity: 100%;
+  }
+

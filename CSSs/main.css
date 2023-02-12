@@ -1,0 +1,297 @@
+
+html, body {
+    max-width: 100vw;
+    overflow-x: hidden;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+a{
+    color: inherit;
+    text-decoration: none;
+    text-decoration-color: inherit;
+}
+
+.chesstext{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:  whitesmoke;
+    text-align: left;
+    font-size: 9.089vw;
+    font-weight: 700;
+    margin-top:0vh;
+    margin-left: 5vw;
+    padding-top: 0vh;
+    text-shadow: 4px 3px 4px black;
+    opacity: 100%;
+}
+
+.subchesstext{
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    text-align: left;
+    font-size: 4.624vw;
+    padding-left: 5vw;
+    font-weight: 500;
+    padding-top: -1vw;
+    margin-top: -7.5vw;
+    text-shadow: 4px 3px 4px black;
+    opacity: 100%;
+}
+
+.timelinetext{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    text-align: left;
+    font-size: 2.24vw;
+    padding-left: 5vw;
+    margin-bottom: 7.5vh;
+    font-weight: 500;
+    text-shadow: 4px 3px 4px black;
+    opacity: 100%;
+}
+
+.fillchesstext{
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    text-align: left;
+    font-size: 1.461vw;
+    padding-left: 5vw;
+    font-weight: 500;
+    padding-top: 5vw;
+    margin-top: -7.5vw;
+    text-shadow:
+        0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
+    opacity: 100%;
+}
+
+.ndtitle{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    text-align: right;
+    font-size: 3.783vw;
+    padding-right: 5vw;
+    font-weight: 700;
+    padding-top: 18vh;
+    margin-top: -5vw;
+    text-shadow: 4px 3px 4px black;
+    opacity: 100%;
+}
+.ndtitleWhy{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    text-align: right;
+    font-size: 3.783vw;
+    padding-right: 5vw;
+    font-weight: 700;
+    margin-top: 2vh;
+    text-shadow: 4px 3px 4px black;
+    opacity: 100%;
+    margin-bottom: 0;
+}
+
+
+.ndtext{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    font-size: 1.561vw;
+    padding-right: 5vw;
+    text-align: right;
+    text-shadow:
+        0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
+}
+
+.rdtitle{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    text-align: left;
+    font-size: 3.783vw;
+    padding-left: 5vw;
+    margin-bottom: 0;
+    font-weight: 700;
+    text-shadow: 4px 3px 4px black;
+    opacity: 100%;
+}
+
+.rdtext {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    font-size: 1.361vw;
+    padding-left: 5vw;
+    line-height: 1.5;
+    margin-top: 4vh;
+    text-shadow:
+        0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
+  }
+ 
+.stdiv{
+    opacity: 95%;
+    display: block;
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../IMGs/chessboard_1920x1080blur.png);
+    background-repeat: round;
+    padding-top: 5vw;
+    height: 100vh;
+    border: 1px solid black;
+}
+
+.nddiv{
+    display: block;
+    background-image: url(../IMGs/goldpawns.jpeg);
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0vw;
+    padding-top: 10vh;
+}
+
+.rddiv{
+    padding-top: 5vh;
+    margin-top: 0vw;
+    display: block;
+    background-image: url(../IMGs/Smoked.jpeg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.div4{
+    display: block;
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../IMGs/goldenchess.jpg);
+    background-repeat: round;
+    padding-top: 5vh;
+    height: 100vh;
+    border: 1px solid black;
+}
+
+.div5{
+    display: block;
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../IMGs/goldenpiece.jpg);
+    background-repeat: round;
+    padding-top: 5vw;
+    height: 100vh;
+    border: 1px solid black;
+}
+
+.div6{
+    display: block;
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../IMGs/wood.jpg);
+    background-repeat: round;
+    height: 100vh;
+    border: 1px solid black;
+}
+
+.ststyled-list li {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    text-align: left;
+    font-size: 1.424vw;
+    padding-left: 5vw;
+    padding-bottom: 1vh;
+    font-weight: 500;
+    text-shadow:
+        0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
+    opacity: 100%;
+    list-style: none;
+  }
+
+  .ndstyled-list li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    text-align: right;
+    font-size: 1.461vw;
+    padding-right: 5vw;
+    line-height: 1.5;
+    list-style: none;
+  }
+  
+
+  .rdstyled-list li {
+    margin-top: 1%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    font-size: 1.261vw;
+    padding-left: 3vw;
+    line-height: 1.5;
+    list-style: none;
+    text-shadow:
+        0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
+  }
+  
+ .menuimage{
+    width: 6vh;
+    height: 6vh;
+ }
+
+ .rulesbody{
+    background: linear-gradient(to right, rgb(5, 31, 57), rgb(1, 59, 39));
+}
+
+.mybutton {
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: #1b2f31;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+    width: 8em;
+    font-size: 1.2vw;
+    font-weight: 600;
+  }
+
+  .buttoncontainer{
+    padding-top: 5vh;
+    padding-right: 5vw;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
