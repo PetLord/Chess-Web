@@ -47,7 +47,7 @@ html, body {
     justify-content: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:  whitesmoke;
-    text-align: left;
+    text-align: justify;
     font-size: 1.289vw;
     font-weight: 500;
     text-shadow: 4px 3px 4px black;
@@ -56,6 +56,8 @@ html, body {
 }
 
 .item-image{
+    width: 15vw;
+    height: 30vh;
     object-fit: fill;
     margin-left: auto;
     margin-right: auto;

@@ -1,5 +1,4 @@
 
-
 .news-maintitle{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:  whitesmoke;
@@ -55,7 +54,7 @@
   .news-item-text{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:  whitesmoke;
-    text-align: left;
+    text-align: justify;
     font-size: 1.289vw;
     font-weight: 500;
     margin-top: 1vh;
