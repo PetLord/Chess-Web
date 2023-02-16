@@ -23,13 +23,27 @@ body{
     border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
+@media only screen and (max-width: 1000px) {
+    .grid-vertical{
+        row-gap: 7.5vh;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .grid-vertical{
+        row-gap: 5vh;
+    }
+}
+
+
 .grid-horizontal{
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 0.2fr;
-    column-gap: 10%;
+    column-gap: 5%;
     margin-right: 5%;
 }
+
 
 .Name{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -44,10 +58,21 @@ body{
     opacity: 100%;
 }
 
+@media only screen and (max-width: 1000px) {
+    .Name{
+        font-size: 2.289vw;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .Name{
+        font-size: 3.289vw;
+    }
+  }  
+
 .information{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:  whitesmoke;
-    text-align: left;
+    text-align: justify;
     font-size: 1.089vw;
     font-weight: 400;
     margin-top:0vh;
@@ -57,13 +82,37 @@ body{
     opacity: 100%;
 }
 
+@media only screen and (max-width: 1000px) {
+    .information{
+        font-size: 1.589vw;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .information{
+        font-size: 2.09vw;
+    }
+}  
+
 .profile-div{
     display: flex;
     justify-content: flex-end;
 }
 
 .profile-image{
-    max-width: 35vw;
-    max-height: 35vh;
+    max-width: 30vw;
+    max-height: 30vh;
     border-radius: 10%;
 }
+
+@media only screen and (max-width: 1000px) {
+    .profile-image{
+        max-width: 25vw;
+        max-height: 25vh;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .profile-image{
+        max-width: 20vw;
+        max-height: 20vh;
+    }
+}  

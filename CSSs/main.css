@@ -21,9 +21,22 @@ a{
     font-weight: 700;
     margin-top:0vh;
     margin-left: 5vw;
+    margin-right: 5vw;
     padding-top: 0vh;
     text-shadow: 4px 3px 4px black;
     opacity: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+    .chesstext{
+        font-size: 18.089vw;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .chesstext{
+        font-size: 27.089vw;
+    }
 }
 
 .subchesstext{
@@ -36,8 +49,23 @@ a{
     font-weight: 500;
     padding-top: -1vw;
     margin-top: -7.5vw;
+    margin-right: 5vw;
     text-shadow: 4px 3px 4px black;
     opacity: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+    .subchesstext{
+        font-size: 8.624vw;
+        margin-top: -15vw;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .subchesstext{
+        font-size: 12.089vw;
+        margin-top: -22.5vw;
+    }
 }
 
 .timelinetext{
@@ -47,9 +75,23 @@ a{
     font-size: 2.24vw;
     padding-left: 5vw;
     margin-bottom: 7.5vh;
+    margin-right: 5vw;
     font-weight: 500;
     text-shadow: 4px 3px 4px black;
     opacity: 100%;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .timelinetext{
+        font-size: 3.24vw;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .timelinetext{
+        font-size: 4.24vw;
+    }
 }
 
 .fillchesstext{
@@ -62,6 +104,7 @@ a{
     font-weight: 500;
     padding-top: 5vw;
     margin-top: -7.5vw;
+    margin-right: 5vw;
     text-shadow:
         0.05em 0 black,
         0 0.05em black,
@@ -73,6 +116,19 @@ a{
         0.05em 0.05em black;
     opacity: 100%;
 }
+
+@media only screen and (max-width: 700px) {
+    .fillchesstext{
+        font-size: 2.461vw;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .fillchesstext{
+        font-size: 3.461vw;
+    }
+}
+
 
 .ndtitle{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -86,6 +142,19 @@ a{
     text-shadow: 4px 3px 4px black;
     opacity: 100%;
 }
+
+@media only screen and (max-width: 700px) {
+    .ndtitle{
+        font-size: 6.783vw;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .ndtitle{
+        font-size: 9.783vw;
+    }
+}
+
 .ndtitleWhy{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: whitesmoke;
@@ -99,12 +168,24 @@ a{
     margin-bottom: 0;
 }
 
+@media only screen and (max-width: 700px) {
+    .ndtitleWhy{
+        font-size: 6.783vw;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .ndtitleWhy{
+        font-size: 9.783vw;
+    }
+}
 
 .ndtext{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: whitesmoke;
     font-size: 1.561vw;
     padding-right: 5vw;
+    margin-left: 5vw;
     text-align: right;
     text-shadow:
         0.05em 0 black,
@@ -117,6 +198,18 @@ a{
         0.05em 0.05em black;
 }
 
+@media only screen and (max-width: 700px) {
+    .ndtext{
+        font-size: 2.561vw;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .ndtext{
+        font-size: 3.561vw;
+    }
+}
+
 .rdtitle{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: whitesmoke;
@@ -127,6 +220,18 @@ a{
     font-weight: 700;
     text-shadow: 4px 3px 4px black;
     opacity: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+    .rdtitle{
+        font-size: 6.783vw;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .rdtitle{
+        font-size: 9.783vw;
+    }
 }
 
 .rdtext {
@@ -146,6 +251,18 @@ a{
         0.05em -0.05em black,
         0.05em 0.05em black;
   }
+
+  @media only screen and (max-width: 700px) {
+    .rdtext {
+        font-size: 2.361vw;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .rdtext {
+        font-size: 3.361vw;
+    }
+}
  
 .stdiv{
     opacity: 95%;
@@ -154,16 +271,19 @@ a{
     height: 100vh;
     width: 100vw;
     background-image: url(../IMGs/chessboard_1920x1080blur.png);
-    background-repeat: round;
+    background-size: cover;
+    background-position: center;
     padding-top: 5vw;
     height: 100vh;
     border: 1px solid black;
 }
 
+
 .nddiv{
     display: block;
     background-image: url(../IMGs/goldpawns.jpeg);
     background-size: cover;
+    background-position: left;
     height: 100vh;
     margin-top: 0vw;
     padding-top: 10vh;
@@ -175,6 +295,7 @@ a{
     display: block;
     background-image: url(../IMGs/Smoked.jpeg);
     background-size: cover;
+    background-position: center;
     height: 100vh;
 }
 
@@ -184,7 +305,8 @@ a{
     height: 100vh;
     width: 100vw;
     background-image: url(../IMGs/goldenchess.jpg);
-    background-repeat: round;
+    background-size: cover;
+    background-position: center;
     padding-top: 5vh;
     height: 100vh;
     border: 1px solid black;
@@ -196,7 +318,8 @@ a{
     height: 100vh;
     width: 100vw;
     background-image: url(../IMGs/goldenpiece.jpg);
-    background-repeat: round;
+    background-size: cover;
+    background-position: center;
     padding-top: 5vw;
     height: 100vh;
     border: 1px solid black;
@@ -208,7 +331,8 @@ a{
     height: 100vh;
     width: 100vw;
     background-image: url(../IMGs/wood.jpg);
-    background-repeat: round;
+    background-size: cover;
+    background-position: center;
     height: 100vh;
     border: 1px solid black;
 }
@@ -234,6 +358,21 @@ a{
     list-style: none;
   }
 
+  @media only screen and (max-width: 700px) {
+    .ststyled-list li {
+        font-size: 2.424vw;
+        padding-left: 2.5vw;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .ststyled-list li {
+        font-size: 3.424vw;
+        padding-left: 1vw;
+    }
+}
+
+
   .ndstyled-list li {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: whitesmoke;
@@ -244,6 +383,19 @@ a{
     list-style: none;
   }
   
+  @media only screen and (max-width: 700px) {
+    .ndstyled-list li {
+        font-size: 2.461vw;
+        line-height: 1.25;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .ndstyled-list li {
+        font-size: 3.461vw;
+        line-height: 1;
+    }
+}
 
   .rdstyled-list li {
     margin-top: 1%;
@@ -264,6 +416,20 @@ a{
         0.05em 0.05em black;
   }
   
+  @media only screen and (max-width: 700px) {
+    .rdstyled-list li {
+        font-size: 2.261vw;
+        padding-left: 2vw;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .rdstyled-list li {
+        font-size: 3.261vw;
+        padding-left: 1vw;
+    }
+}
+
  .menuimage{
     width: 6vh;
     height: 6vh;
@@ -288,6 +454,18 @@ a{
     font-weight: 600;
   }
 
+  @media only screen and (max-width: 700px) {
+    .mybutton {
+        font-size: 2.2vw;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .mybutton {
+        font-size: 3.2vw;
+    }
+}
+
   .buttoncontainer{
     padding-top: 5vh;
     padding-right: 5vw;
@@ -295,3 +473,4 @@ a{
     justify-content: end;
     align-items: center;
   }
+

@@ -22,6 +22,17 @@
     
 }
 
+@media only screen and (max-width: 1000px) {
+    .rulesMain{
+        font-size: 7.5vw;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .rulesMain{
+        font-size: 10vw;
+    }
+}
+
 .rulesText{
     text-align: center;
     padding-left: 15vh;
@@ -39,6 +50,21 @@
     opacity: 100%;
 }
 
+@media only screen and (max-width: 1000px) {
+    .rulesText{
+        font-size: 2.25vw;
+        padding-left: 5vh;
+        padding-right: 5vh;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .rulesText{
+        font-size: 2.75vw;
+        padding-left: 0vh;
+        padding-right: 0vh;
+    }
+}
+
 .rulesText li{
     padding-top: 2vh;
     margin-left: 15vw;
@@ -54,6 +80,12 @@
     transform: translate(-50%, 0);
     height: 325px;
     width: 300px;
-    padding: 5vh 5.5vh 5vh 0.5vh;
-    
+    padding: 5vh 5vh 5vh 5vh;
+}
+
+@media only screen and (max-width: 1000px) {
+    .rulesIMG{
+        height: 275px;
+        width: 250px;
+    }
 }

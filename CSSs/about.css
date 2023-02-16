@@ -16,6 +16,30 @@ body{
     color: white   ;
     transition-duration: 0.5s;
     line-height: 1.6;
+    text-shadow:
+        0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
+}
+
+@media only screen and (max-width: 1000px) {
+    .maintext{
+        font-size: 1.75vw;
+        padding-left: 7.5vw;
+        padding-right: 7.5vw;
+    }
+}
+@media only screen and (max-width: 700px) {
+  .maintext{
+        font-size: 2vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
 }
 
 .maindiv{
@@ -54,6 +78,26 @@ body{
     text-align: center;
     color: white   ;
     transition-duration: 0.5s;
+    text-shadow:
+        0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
+}
+
+@media only screen and (max-width: 1000px) {
+    .name{
+        font-size: 1.75vw;
+    }
+}
+@media only screen and (max-width: 700px) {
+  .name{
+        font-size: 2vw;
+    }
 }
 
 .members{
@@ -63,17 +107,45 @@ body{
     text-align: center;
     color: white   ;
     transition-duration: 0.5s;
+    text-shadow:
+        0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
+}
+
+@media only screen and (max-width: 1000px) {
+    .members{
+        font-size: 3vw;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .members{
+        font-size: 3.5vw;
+    }
 }
 
 .thank-you-div{
-    margin: 10vh 15vw 10vh 15vw ;
-    padding: 5vh 2vw 5vh 2vw ;
+    margin: 0vh 15vw 10vh 15vw ;
+    padding: 0vh 2vw 0vh 2vw ;
     text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    background: rgba(0, 0, 0, 0.45);
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
     border: 1px solid rgba(0, 0, 0, 0.3);
-    border-radius: calc(15px + 15.390625vw);
 }
+
+@media only screen and (max-width: 1000px) {
+    .thank-you-div{
+        margin: 0vh 10vw 5vh 10vw ;
+    }
+}
+
 
 .thank-you-text{
     font-size: 5vw;;

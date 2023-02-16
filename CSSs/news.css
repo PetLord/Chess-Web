@@ -12,6 +12,19 @@
     opacity: 100%;
   }
   
+  @media only screen and (max-width: 1000px) {
+    .news-maintitle{
+        font-size: 8.089vw;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+  .news-maintitle{
+      font-size: 10.089vw;
+  }
+}
+
+  
   .news-item{
     margin-left: 20vw;
     margin-right: 20vw;
@@ -24,6 +37,21 @@
     border: 1px solid rgba(0, 0, 0, 0.3);
   }
 
+  @media only screen and (max-width: 1000px) {
+    .news-item{
+        margin-bottom: 5vh;
+        margin-left: 15vw;
+        margin-right: 15vw;
+    }
+}
+@media only screen and (max-width: 700px) {
+  .news-item{
+      margin-bottom: 3.5vh;
+      margin-left: 10vw;
+      margin-right: 10vw;
+  }
+}
+  
   .news-item-title{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:  whitesmoke;
@@ -36,6 +64,17 @@
     text-shadow: 4px 3px 4px black;
     opacity: 100%;
   }
+
+  @media only screen and (max-width: 1000px) {
+    .news-item-title{
+        font-size: 2.5vw;
+    }
+}
+@media only screen and (max-width: 700px) {
+  .news-item-title{
+      font-size: 3vw;
+  }
+}
 
   .news-item-date{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -51,6 +90,17 @@
     opacity: 100%;
   }
 
+  @media only screen and (max-width: 1000px) {
+    .news-item-date{
+        font-size: 2.25vw;
+    }
+}
+@media only screen and (max-width: 700px) {
+  .news-item-date{
+      font-size: 2.75vw;
+  }
+}
+
   .news-item-text{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:  whitesmoke;
@@ -65,3 +115,13 @@
     opacity: 100%;
   }
 
+  @media only screen and (max-width: 1000px) {
+    .news-item-text{
+        font-size: 1.5vw;
+    }
+}
+@media only screen and (max-width: 700px) {
+  .news-item-text{
+      font-size: 2vw;
+  }
+}

@@ -14,6 +14,21 @@
     opacity: 100%;
 }
 
+@media only screen and (max-width: 1000px) {
+  .contact-text{
+      font-size: 2.2vw;
+      margin-left: 20vw;
+      margin-right: 20vw;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .contact-text{
+    font-size: 2.76vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+}
+
 .information-text{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:  whitesmoke;
@@ -27,6 +42,21 @@
     padding-top: 0vh;
     text-shadow: 3px 2px 3px black;
     opacity: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .information-text{
+      font-size: 2.2vw;
+      margin-left: 20vw;
+      margin-right: 20vw;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .information-text{
+    font-size: 2.76vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
 }
 
 .alternative-text{
@@ -44,7 +74,21 @@
     opacity: 100%;
 }
 
-  
+@media only screen and (max-width: 1000px) {
+  .alternative-text{
+      font-size: 2.2vw;
+      margin-left: 20vw;
+      margin-right: 20vw;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .alternative-text{
+    font-size: 2.76vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+}  
+
   /* form animation starts */
   .form {
     background: #fff;
@@ -70,6 +114,7 @@
   ::-webkit-input-placeholder {
     font-size: 1.3em;
   }
+
   
   .title{
     display: block;
@@ -82,6 +127,9 @@
     font-size: 2em;
     font-weight: bold;
   }
+
+  
+
   .secondaryTitle{
     color: grey;
   }
