@@ -7,6 +7,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-database.js"></script>
+    <script type="module" src="../JSs/firebase.js"></script>
+
+
+
     <title>Contact</title>
 </head>
 <body class="rulesbody">
@@ -15,18 +21,18 @@
         <nav class="headerdiv">
           <!--Menu-->
           <ul class="menulist">
-            <li class="menuitem"><a href="play.html">Play</a></li>
-            <li class="menuitem"><a href="index.html">Home</a></li>
-            <li class="menuitem"><a href="news.html">News</a></li>
+            <li class="menuitem"><a href="./play.html">Play</a></li>
+            <li class="menuitem"><a href="../index.html">Home</a></li>
+            <li class="menuitem"><a href="./news.html">News</a></li>
             <li class="menuitem"><p class="logotext">Deak's</p> </li>
-            <li class="menuitem"><a href="rules.html">Rules</a></li>
-            <li class="menuitem"><a href="gambits.html">Gambits</a></li>
+            <li class="menuitem"><a href="./rules.html">Rules</a></li>
+            <li class="menuitem"><a href="./gambits.html">Gambits</a></li>
             
             <li class="menuitem"> 
               <div id="dropdown">
                 <button id="dropbtn"></button>
                 <div id="dropdown-content">
-                  <a href="about.html">About</a>
+                  <a href="./about.html">About</a>
                   <a href="contact.html">Contact</a>
                 </div>
               </div>
@@ -54,12 +60,16 @@
         <form class="form">
           <div class="pageTitle title">Contact Us! </div>
           <div class="secondaryTitle title">We gladly accept feedback and support.</div>
-          <input type="text" class="name formEntry" placeholder="Name" />
-          <input type="text" class="email formEntry" placeholder="Email"/>
-          <textarea class="message formEntry" placeholder="Message"></textarea>
-          <button class="submit formEntry" onclick="thanks()">Submit</button>
+          <input type="text" class="name formEntry" placeholder="Name" id="name"/>
+          <input type="text" class="email formEntry" placeholder="Email" id="email"/>
+          <textarea class="message formEntry" placeholder="Message" id="message"></textarea>
+          <button type="button" class="submit formEntry" id="submitFeedback">Submit</button>
+          
         </form>
       </div>
+      
 
 </body>
+
+
 </html>

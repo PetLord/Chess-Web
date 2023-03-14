@@ -44,7 +44,6 @@ a{
 .menulist{
     padding: 0;
     margin: 0;
-    float: center;
     position: relative;
     display: flex;
     list-style: none;
