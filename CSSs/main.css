@@ -27,16 +27,31 @@ a{
     opacity: 100%;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px){
+    .chesstext{
+        font-size: 14.089vw;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
     .chesstext{
         font-size: 18.089vw;
     }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 625px) {
     .chesstext{
         font-size: 27.089vw;
     }
+}
+
+@media only screen and (max-width: 500px)
+{
+    .chesstext{
+        font-size: 32.089vw;
+    }
+    
 }
 
 .subchesstext{
@@ -54,18 +69,36 @@ a{
     opacity: 100%;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px)
+{
+    .subchesstext{
+        font-size: 6.624vw;
+        margin-top: -10vw;
+    }
+}
+
+@media only screen and (max-width: 800px) {
     .subchesstext{
         font-size: 8.624vw;
         margin-top: -15vw;
     }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 625px) {
     .subchesstext{
         font-size: 12.089vw;
         margin-top: -22.5vw;
     }
+}
+
+@media only screen and (max-width: 500px)
+{
+    .subchesstext{
+        font-size: 14.089vw;
+        margin-top: -27.5vw;
+    }
+    
+    
 }
 
 .timelinetext{
@@ -81,17 +114,33 @@ a{
     opacity: 100%;
 }
 
+@media only screen and (max-width: 1000px)
+{
+    .timelinetext{
+        font-size: 2.85vw;
+    }
 
-@media only screen and (max-width: 700px) {
+}
+
+@media only screen and (max-width: 800px) {
     .timelinetext{
         font-size: 3.24vw;
     }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 625px) {
     .timelinetext{
         font-size: 4.24vw;
     }
+}
+
+@media only screen and (max-width: 500px)
+{
+ 
+    .timelinetext{
+        font-size: 5.24vw;
+    }
+    
 }
 
 .fillchesstext{
@@ -116,17 +165,31 @@ a{
         0.05em 0.05em black;
     opacity: 100%;
 }
-
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px)
+{
     .fillchesstext{
-        font-size: 2.461vw;
+        font-size: 2.061vw;
     }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 800px) {
     .fillchesstext{
-        font-size: 3.461vw;
+        font-size: 2.861vw;
     }
+}
+
+@media only screen and (max-width: 625px) {
+    .fillchesstext{
+        font-size: 3.761vw;
+    }
+}
+@media only screen and (max-width: 500px)
+{
+    
+    .fillchesstext{
+        font-size: 4.761vw;
+    }
+    
 }
 
 
@@ -143,16 +206,31 @@ a{
     opacity: 100%;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px)
+{
+    .ndtitle{
+        font-size: 5.783vw;
+    }
+}
+
+@media only screen and (max-width: 800px) {
     .ndtitle{
         font-size: 6.783vw;
     }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 625px) {
     .ndtitle{
         font-size: 9.783vw;
     }
+}
+@media only screen and (max-width: 500px)
+{
+    .ndtitle{
+        font-size: 11.783vw;
+    }
+    
+    
 }
 
 .ndtitleWhy{
@@ -168,16 +246,31 @@ a{
     margin-bottom: 0;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px)
+{
+    .ndtitleWhy{
+        font-size: 4.783vw;
+    }
+}
+
+@media only screen and (max-width: 800px) {
     .ndtitleWhy{
         font-size: 6.783vw;
     }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 625px) {
     .ndtitleWhy{
         font-size: 9.783vw;
     }
+}
+
+@media only screen and (max-width: 500px)
+{
+    .ndtitleWhy{
+        font-size: 11.783vw;
+    }
+    
 }
 
 .ndtext{
@@ -198,16 +291,32 @@ a{
         0.05em 0.05em black;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px)
+{
     .ndtext{
-        font-size: 2.561vw;
+        font-size: 2.261vw;
     }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 800px) {
     .ndtext{
-        font-size: 3.561vw;
+        font-size: 2.761vw;
     }
+}
+
+@media only screen and (max-width: 625px) {
+    .ndtext{
+        font-size: 4.061vw;
+    }
+}
+
+@media only screen and (max-width: 500px)
+{
+    .ndtext{
+        font-size: 5.061vw;
+    }
+    
+    
 }
 
 .rdtitle{
@@ -222,16 +331,33 @@ a{
     opacity: 100%;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px)
+{
+    .rdtitle{
+        font-size: 4.783vw;
+    }
+}
+
+@media only screen and (max-width: 800px) {
     .rdtitle{
         font-size: 6.783vw;
     }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 625px) {
     .rdtitle{
         font-size: 9.783vw;
     }
+}
+
+@media only screen and (max-width: 500px)
+{
+    .rdtitle{
+        font-size: 11.783vw;
+    }
+    
+    
+    
 }
 
 .rdtext {
@@ -252,18 +378,32 @@ a{
         0.05em 0.05em black;
   }
 
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 1000px)
+{
     .rdtext {
-        font-size: 2.361vw;
+        font-size: 1.961vw;
+    }
+}
+  @media only screen and (max-width: 800px) {
+    .rdtext {
+        font-size: 2.561vw;
     }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 625px) {
     .rdtext {
-        font-size: 3.361vw;
+        font-size: 3.961vw;
     }
 }
  
+@media only screen and (max-width: 500px)
+{
+    .rdtext {
+        font-size: 4.961vw;
+    }
+
+}
+
 .stdiv{
     opacity: 95%;
     display: block;
@@ -271,8 +411,9 @@ a{
     height: 100vh;
     width: 100vw;
     background-image: url(../IMGs/chessboard_1920x1080blur.png);
-    background-size: cover;
     background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
     padding-top: 5vw;
     height: 100vh;
     border: 1px solid black;
@@ -282,8 +423,9 @@ a{
 .nddiv{
     display: block;
     background-image: url(../IMGs/goldpawns.jpeg);
-    background-size: cover;
-    background-position: left;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
     height: 100vh;
     margin-top: 0vw;
     padding-top: 10vh;
@@ -294,8 +436,9 @@ a{
     margin-top: 0vw;
     display: block;
     background-image: url(../IMGs/Smoked.jpeg);
-    background-size: cover;
     background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
     height: 100vh;
 }
 
@@ -305,8 +448,9 @@ a{
     height: 100vh;
     width: 100vw;
     background-image: url(../IMGs/goldenchess.jpg);
-    background-size: cover;
     background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
     padding-top: 5vh;
     height: 100vh;
     border: 1px solid black;
@@ -318,8 +462,9 @@ a{
     height: 100vh;
     width: 100vw;
     background-image: url(../IMGs/goldenpiece.jpg);
-    background-size: cover;
     background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
     padding-top: 5vw;
     height: 100vh;
     border: 1px solid black;
@@ -331,8 +476,9 @@ a{
     height: 100vh;
     width: 100vw;
     background-image: url(../IMGs/wood.jpg);
-    background-size: cover;
     background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
     height: 100vh;
     border: 1px solid black;
 }
@@ -357,19 +503,33 @@ a{
     opacity: 100%;
     list-style: none;
   }
+  @media only screen and (max-width: 1000px) {
+    .ststyled-list li {
+        font-size: 1.824vw;
+        padding-left: 3.5vw;
+    }
+}
 
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 800px) {
     .ststyled-list li {
         font-size: 2.424vw;
         padding-left: 2.5vw;
     }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 625px) {
     .ststyled-list li {
         font-size: 3.424vw;
         padding-left: 1vw;
     }
+}
+
+@media only screen and (max-width: 500px)
+{
+    .ststyled-list li {
+        font-size: 4.424vw;
+    }
+    
 }
 
 
@@ -382,19 +542,34 @@ a{
     line-height: 1.5;
     list-style: none;
   }
+
+  @media only screen and (max-width: 1000px) {
+    .ndstyled-list li {
+        font-size: 1.961vw;
+        line-height: 1.25;
+    }
+}
   
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 800px) {
     .ndstyled-list li {
         font-size: 2.461vw;
         line-height: 1.25;
     }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 625px) {
     .ndstyled-list li {
         font-size: 3.461vw;
         line-height: 1;
     }
+}
+@media only screen and (max-width: 500px)
+{
+    .ndstyled-list li {
+        font-size: 4.461vw;
+        line-height: 1;
+    }
+    
 }
 
   .rdstyled-list li {
@@ -415,19 +590,35 @@ a{
         0.05em -0.05em black,
         0.05em 0.05em black;
   }
+
+  @media only screen and (max-width: 1000px)
+    {
+        .rdstyled-list li {
+            font-size: 1.761vw;
+            padding-left: 2.5vw;
+        }
+    }
   
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 800px) {
     .rdstyled-list li {
         font-size: 2.261vw;
         padding-left: 2vw;
     }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 625px) {
     .rdstyled-list li {
         font-size: 3.261vw;
         padding-left: 1vw;
     }
+}
+
+@media only screen and (max-width: 500px)
+{
+    .rdstyled-list li {
+        font-size: 4.261vw;
+    }
+    
 }
 
  .menuimage{
@@ -454,16 +645,31 @@ a{
     font-weight: 600;
   }
 
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 1000px)
+    {
+        .mybutton {
+            font-size: 1.6vw;
+        }
+    }
+
+  @media only screen and (max-width: 800px) {
     .mybutton {
         font-size: 2.2vw;
     }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 625px) {
     .mybutton {
         font-size: 3.2vw;
     }
+}
+
+@media only screen and (max-width: 500px)
+{
+    .mybutton {
+        font-size: 4.2vw;
+    }
+    
 }
 
   .buttoncontainer{
