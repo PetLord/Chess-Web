@@ -680,3 +680,14 @@ a{
     align-items: center;
   }
 
+.division{
+    opacity: 100%;
+    transition: ease-in-out 0.5s;
+}
+
+@media only screen and (max-width: 1000px)
+{
+    .division{
+       opacity: 95%;
+    }
+}

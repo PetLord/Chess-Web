@@ -29,14 +29,14 @@ body{
 
 @media only screen and (max-width: 1000px) {
     .maintext{
-        font-size: 1.75vw;
+        font-size: 2vw;
         padding-left: 7.5vw;
         padding-right: 7.5vw;
     }
 }
 @media only screen and (max-width: 700px) {
   .maintext{
-        font-size: 2vw;
+        font-size: 3vw;
         padding-left: 5vw;
         padding-right: 5vw;
     }
@@ -58,12 +58,34 @@ body{
     justify-self: center;
 }
 
+@media only screen and (max-width: 1000px) {
+    .profile-image{
+        width: 30vw;
+        height: 30vw;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .profile-image{
+        width: 50vw;
+        height: 50vw;
+    }
+}
+
 .grid-container{
     display: grid;
      grid-template-columns: 1fr 1fr;
       align-items: center;
       padding-bottom: 10vh;
 }
+
+@media only screen and (max-width: 700px) {
+    .grid-container{
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 10vh;
+    }
+}
+
 
 .grid-container-v{
     display: grid;
@@ -91,12 +113,12 @@ body{
 
 @media only screen and (max-width: 1000px) {
     .name{
-        font-size: 1.75vw;
+        font-size: 2vw;
     }
 }
 @media only screen and (max-width: 700px) {
   .name{
-        font-size: 2vw;
+        font-size: 4vw;
     }
 }
 
@@ -149,4 +171,10 @@ body{
     text-align: center;
     color: white   ;
     transition-duration: 0.5s;
+}
+
+@media only screen and (max-width: 1000px) {
+    .thank-you-text{
+        font-size: 7vw;
+    }
 }
