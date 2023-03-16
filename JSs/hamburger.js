@@ -16,5 +16,5 @@ function hbopenclose() {
     }
 }
 console.log("hamburger.js loaded");
-window.addEventListener("resize", playembedheight);
+
 

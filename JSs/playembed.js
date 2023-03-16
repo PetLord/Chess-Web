@@ -5,4 +5,4 @@ function playembedheight(){
     {   
     console.log("height changed");
     }
-}
+}window.addEventListener("resize", playembedheight);
