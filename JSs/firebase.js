@@ -114,3 +114,4 @@ document.addEventListener("DOMContentLoaded", function() {
    }
 
    document.getElementById('submitFeedback').addEventListener('click', async function(){ await sendFeedback(); sendContact(); window.location.reload();});
+   document.getElementById('submitFeedback').addEventListener('touchstart', async function(){ await sendFeedback(); sendContact(); window.location.reload();});
