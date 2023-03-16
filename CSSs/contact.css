@@ -1,14 +1,15 @@
 
 .contact-text{
+  position: relative;
+  display: inline-block;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:  whitesmoke;
-    text-align: left;
     font-size: 1.789vw;
     font-weight: 700;
-    margin-top:12.5vh;
     margin-left: 25vw;
     margin-right: 25vw;
     text-align: center;
+    margin-top: 12.5vh;
     padding-top: 0vh;
     text-shadow: 3px 2px 3px black;
     opacity: 100%;
@@ -94,6 +95,7 @@
     background: #fff;
     box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
     border-radius: 5px;
+    width: 75vw;
     max-width: 480px;
     margin-left: auto;
     margin-right: auto;
