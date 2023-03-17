@@ -228,8 +228,8 @@ a{
     }
 
     #hbopener{
-        margin-left: 1vh;
-        width: 10vh;
+        margin-left: 2vh;
+        width: 12vw;
         transition: all 0.3s ease-out;
     }
 

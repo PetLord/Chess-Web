@@ -3,7 +3,7 @@ function hbopenclose() {
     if(window.getComputedStyle(x).display =="none")
     {
         document.getElementById("hbmenulist").style.display="block";
-        document.getElementById("hbopener").style.marginLeft = "40vw";
+        document.getElementById("hbopener").style.marginLeft = "44vw";
         document.getElementById("hbopener").style.marginRight = "45vw";
         
     }

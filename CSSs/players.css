@@ -31,7 +31,7 @@ body{
 
 @media only screen and (max-width: 700px) {
     .grid-vertical{
-        row-gap: 5vh;
+        row-gap: 1vh;
     }
 }
 
@@ -44,6 +44,15 @@ body{
     margin-right: 5%;
 }
 
+
+@media only screen and (max-width: 700px) {
+    .grid-horizontal{
+        grid-template-columns: none;
+        grid-template-rows: 0.5fr 0.5fr;
+        align-items: center;
+        margin-bottom: 3vh;
+    }
+}
 
 .Name{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -65,6 +74,7 @@ body{
   }
   @media only screen and (max-width: 700px) {
     .Name{
+        text-align: center;
         font-size: 3.289vw;
     }
   }  
@@ -112,7 +122,9 @@ body{
 }
 @media only screen and (max-width: 700px) {
     .profile-image{
-        max-width: 20vw;
-        max-height: 20vh;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 40vw;
+        max-height: 40vh;
     }
 }  

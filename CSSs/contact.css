@@ -17,24 +17,24 @@
 
 @media only screen and (max-width: 1000px) {
   .contact-text{
-      font-size: 2.2vw;
-      margin-left: 20vw;
-      margin-right: 20vw;
+      font-size: 2.5vw;
+      margin-left: 17.5vw;
+      margin-right: 17.5vw;
   }
 }
 @media only screen and (max-width: 700px) {
   .contact-text{
-    font-size: 2.76vw;
-    margin-left: 15vw;
-    margin-right: 15vw;
+    font-size: 3.5vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 }
 
 @media only screen and (max-width: 500px) {
   .contact-text{
-    font-size: 3.26vw;
-    margin-left: 15vw;
-    margin-right: 15vw;
+    font-size: 4.5vw;
+    margin-left: 7.5vw;
+    margin-right: 7.5vw;
 }
 }
 
@@ -42,7 +42,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:  whitesmoke;
     text-align: left;
-    font-size: 1.289vw;
+    font-size: 1.589vw;
     font-weight: 700;
     margin-top:5vh;
     margin-left: 25vw;
@@ -55,14 +55,14 @@
 
 @media only screen and (max-width: 1000px) {
   .information-text{
-      font-size: 2.2vw;
+      font-size: 2.5vw;
       margin-left: 20vw;
       margin-right: 20vw;
   }
 }
 @media only screen and (max-width: 700px) {
   .information-text{
-    font-size: 2.76vw;
+    font-size: 3.5vw;
     margin-left: 15vw;
     margin-right: 15vw;
 }
@@ -70,7 +70,7 @@
 
 @media only screen and (max-width: 500px) {
   .information-text{
-    font-size: 3.16vw;
+    font-size: 4.5vw;
     margin-left: 15vw;
     margin-right: 15vw;
 }
@@ -80,9 +80,9 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:  whitesmoke;
     text-align: left;
-    font-size: 1.089vw;
+    font-size: 1.589vw;
     font-weight: 700;
-    margin-top:15vh;
+    margin-top:5vh;
     margin-left: 25vw;
     margin-right: 25vw;
     text-align: center;
@@ -93,14 +93,14 @@
 
 @media only screen and (max-width: 1000px) {
   .alternative-text{
-      font-size: 2.2vw;
+      font-size: 3vw;
       margin-left: 20vw;
       margin-right: 20vw;
   }
 }
 @media only screen and (max-width: 700px) {
   .alternative-text{
-    font-size: 2.76vw;
+    font-size: 4vw;
     margin-left: 15vw;
     margin-right: 15vw;
 }
@@ -108,7 +108,7 @@
 
 @media only screen and (max-width: 500px) {
   .alternative-text{
-    font-size: 3.16vw;
+    font-size: 5vw;
     margin-left: 15vw;
     margin-right: 15vw;
 }
