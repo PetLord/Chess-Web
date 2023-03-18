@@ -405,6 +405,7 @@ a{
 }
 
 .stdiv{
+    margin-top: 0;
     opacity: 95%;
     display: block;
     background-color: whitesmoke;
@@ -626,9 +627,7 @@ a{
     height: 6vh;
  }
 
- .rulesbody{
-    background: linear-gradient(to right, rgb(5, 31, 57), rgb(1, 59, 39));
-}
+
 
 .mybutton {
     color: whitesmoke;
