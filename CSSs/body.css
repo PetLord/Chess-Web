@@ -2,7 +2,6 @@
     background: linear-gradient(-45deg, rgb(5, 31, 57),   rgb(19, 52, 83), rgb(0, 96, 60),rgb(0, 59, 37));
 	background-size: 170% 170%;
 	animation: gradient 7s ease-in-out infinite;
-	overflow-y: hidden;
 }
 @keyframes gradient {
 	0% {
