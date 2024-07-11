@@ -3,7 +3,7 @@ import {getFirestore, setDoc, doc} from 'https://www.gstatic.com/firebasejs/9.0.
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDLN_jzyCljyQAeTGbI6qaIXy0Wj6lAeOU",
+  apiKey: "YOUR API KEY HERE",
   authDomain: "chess-feedback.firebaseapp.com",
   databaseURL: "https://chess-feedback-default-rtdb.europe-west1.firebasedatabase.app",
   projectId: "chess-feedback",
